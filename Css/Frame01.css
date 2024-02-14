@@ -1,3 +1,5 @@
+/* !Inicio do Header */
+/* ----------------- */
 .headerON {
     width: 1280px;
     height: 60px;
@@ -9,13 +11,6 @@
     background-color: var(--1_color);
 }
 
-.main_fr1 {
-    width: 1280px;
-    height: 100%;
-    margin: 0 auto;
-
-    background-color: var(--w);
-}
 
 .logo {
     height: 60px;
@@ -32,7 +27,7 @@
 #MRKT {
     width: 80px;
     height: 45px;
-
+    
     margin-left: 2px;
 }
 
@@ -46,8 +41,99 @@
     color: var(--w);
 }
 
-.account img {
-    width: 40px;
-    height: 40px;
-    fill: var(--w)
+.account #account-i{
+    font-size: 40px;
+    color: var(--w)
+}
+
+/* !Inicio da main */
+/* --------------- */
+.main_fr1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+
+    background-color: var(--w);
+}
+
+.esquerda_fr1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    grid-column: 1 / 2;
+    width: 100%;
+    height: 660px;
+}
+
+.titulo_fr1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    height: 50%;
+    flex-direction: column;
+}
+
+.esquerda_fr1 h1 {
+    display: flex;
+    font-size: 5rem;
+    width: 100%;
+}
+
+#ideias {
+    margin-left: 5%;
+    line-height: 0.3;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.esquerda_fr1 h3 {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    line-height: 5;
+    font-size: 2em;
+    font-weight: 300;
+    font-style: italic;
+    height: 50px;
+}
+
+.esquerda_fr1 a button{
+    font-size: 35px;
+    background-color: var(--2_color);
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    color: var(--1_color);
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.esquerda_fr1 a button:hover{
+    background-color: var(--1_color);
+    border: 3px solid var(--2_color);
+    color: var(--w);
+}
+
+.direita_fr1 {
+    grid-column: 2 / 3;
+    background-image: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: 670px;
+}
+
+.direita_fr1 img {
+    width: 820px;
+    height: 1000px;
+    flex-shrink: 0;
+    margin: -100px 20px 0px -120px ;
+    z-index: 5;
 }
