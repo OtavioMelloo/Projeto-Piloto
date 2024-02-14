@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: montserrat, sans-serif;
+}
+
+:root{
+  --1_color: #8F00FF;
+  --2_color: #1E1E1E;
+  --3_color: #F3F3F3;
+
+  --w: #ffffff;
+  --b: #000000;
+}
+
+
+.frame {
+ background-color: rgba(237, 173, 173, 0.245); 
+ width: 100vw;
+ height: 729px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: var(--1_color);
+}
+
