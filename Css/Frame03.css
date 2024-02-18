@@ -1,7 +1,142 @@
 #main_fr3{
     width: 1280px;
-    height: 100%;
+    height: 1000px;
     margin: 0 auto;
     /* background-color: aqua; */
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 1fr; 
 }
 
+#main_fr3 .titulo{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: var(--1_color);
+    font-weight: 800;
+}
+
+.esquerda_fr3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 1 / 2;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+
+.direita_fr3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-column: 2 / 3;
+    height: 100%;
+}
+
+.esquerda_fr3 i img {
+    margin: 0 auto;
+    margin-bottom: -50px;
+    margin-left: -210px;
+    position: relative;
+    z-index: 5;
+}
+
+/* -------- */
+/* !Dev Web */
+/* -------- */
+
+.dev_web{
+    margin: 0 auto;
+    border: 4px solid var(--1_color);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 350px;
+    height: 500px;
+}
+
+.dev_web_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.dev_web_content img {
+    margin: 10px auto;
+    width: 70%;
+    height: 320px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.dev_web_content h1 {
+    width: 70%;
+    height: 100%;
+    font-size: 30px;
+    margin-left: 10px;
+    color: var(--1_color);
+    font-weight: 800;
+}
+
+.dev_web_content p {
+    width: 70%;
+    height: 100%;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+
+.btn_solicitar {
+    width: 70%;
+}
+
+.btn_solicitar button {
+    background-color: #1e1e1e;
+    color: white;
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 30px;
+    height: 60px;
+    font-weight: 800;
+}
+
+/* --------- */
+/* !Dev BI  */
+/* -------- */
+
+.dev_bi_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.dev_bi_content img {
+    margin: 10px auto;
+    width: 70%;
+    height: 320px;
+    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px;
+}
+
+.dev_bi_content h1 {
+    width: 69%;
+    height: 100%;
+    font-size: 29px;
+    margin-left: 10px;
+    color: var(--1_color);
+    font-weight: 800;
+}
+
+.dev_bi_content p {
+    width: 70%;
+    height: 100%;
+    font-size: 16px;
+    margin-left: 10px;
+}
