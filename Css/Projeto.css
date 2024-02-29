@@ -1,0 +1,47 @@
+/* !Inicio do Header */
+/* ----------------- */
+.headerON {
+    width: 1280px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--1_color);
+}
+
+
+.logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+#LogoT {
+    margin: -13px;
+    width: 80px;
+    height: 80px;
+}
+
+#MRKT {
+    width: 80px;
+    height: 45px;
+    
+    margin-left: 2px;
+}
+
+.links_nav {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.links_nav a {
+    color: var(--w);
+}
+
+.account #account-i{
+    font-size: 40px;
+    color: var(--w)
+}
